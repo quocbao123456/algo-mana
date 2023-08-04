@@ -1,5 +1,5 @@
 
-// https://leetcode.com/problems/house-robber-ii/
+// https://leetcode.com/problems/house-robber-ii/   (41.3%)
 var rob2 = function (nums) {
 
     function dp(index, chooseFirst){
@@ -16,7 +16,7 @@ var rob2 = function (nums) {
     return Math.max(dp(1, false), nums[0] + dp(2, true))
 };
 
-// https://leetcode.com/problems/house-robber-iii/
+// https://leetcode.com/problems/house-robber-iii/  (54.0%)
 var rob3 = function(root) {
     const memozieds = new Map();
 

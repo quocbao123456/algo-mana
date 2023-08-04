@@ -1,4 +1,4 @@
-// https://leetcode.com/problems/house-robber/
+// https://leetcode.com/problems/house-robber/  (49.7%)
 
 // dp no memozie --> not pass
 export const rob = function (nums) {
