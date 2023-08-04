@@ -36,3 +36,5 @@ export default longestPalindrome = function (s) {
 // 1 <= s.length <= 1000
 // Complexity: N^2 (worst case)
 // Mem: N
+
+// Refer: Using dp to solve this problem
