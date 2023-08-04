@@ -1,0 +1,28 @@
+{
+    "name": "algo",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/quocbao123456/algo-mana.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/quocbao123456/algo-mana/issues"
+    },
+    "homepage": "https://github.com/quocbao123456/algo-mana#readme",
+    "dependencies": {
+        "jest": "^29.6.2"
+    },
+    "type": "module",
+    "devDependencies": {
+        "@babel/core": "^7.22.9",
+        "@babel/preset-env": "^7.22.9",
+        "babel-jest": "^29.6.2"
+    }
+}
