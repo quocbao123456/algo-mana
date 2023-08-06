@@ -23,9 +23,10 @@
 ### Hash Table
 | Level  | Problem | Resource
 | :------------ |:---------------| :---------------|
-| **Easy**      | 
+| **Easy**      | hash/two-sum    |   https://leetcode.com/problems/two-sum/    (50.4%)
 | **Medium**      |  hash/longest-substring-without-repeating-characters    |   https://leetcode.com/problems/longest-substring-without-repeating-characters (33.9%)
 |       |  hash/group-anagrams    |   https://leetcode.com/problems/group-anagrams/    (66.8%)
+|       |  hash/longest-consecutive-sequence    |   https://leetcode.com/problems/longest-consecutive-sequence/    (47.7%)
 
 ### Two pointer
 | Level  | Problem | Resource

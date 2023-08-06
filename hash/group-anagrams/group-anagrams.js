@@ -1,6 +1,6 @@
 // https://leetcode.com/problems/group-anagrams/    (66.8%)
 
-var groupAnagrams = function (strs) {
+export const groupAnagrams = function (strs) {
     const anagrams = new Map();
 
     function getKey(str){
