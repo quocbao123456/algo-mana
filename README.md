@@ -2,7 +2,7 @@
 ###### Resourse: LeetCode
 ## Problems
 ### Tree
-#### Deep First Search <br/>
+#### Deep First Search (DFS) <br/>
 | Level  | Problem | Resource
 | :------------ |:---------------| :---------------|
 | **Easy**      | | 
