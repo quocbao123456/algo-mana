@@ -17,6 +17,7 @@
     },
     "homepage": "https://github.com/quocbao123456/algo-mana#readme",
     "dependencies": {
+        "babel-plugin-module-resolver": "^5.0.0",
         "jest": "^29.6.2"
     },
     "type": "module",
