@@ -39,7 +39,7 @@
 | Level  | Problem | Resource
 | :------------ |:---------------| :---------------|
 | **Easy**      | | https://leetcode.com/problems/fibonacci-number  (70.1%)
-| **Medium**      | dynamic-programing/dp-1d/robber   | https://leetcode.com/problems/house-robber  (49.7%) <br /> https://leetcode.com/problems/house-robber-ii   (41.3%) https://leetcode.com/problems/house-robber-iii  (54.0%)
+| **Medium**      | dynamic-programing/dp-1d/robber   | https://leetcode.com/problems/house-robber  (49.7%) (guide img)<br /> https://leetcode.com/problems/house-robber-ii   (41.3%) https://leetcode.com/problems/house-robber-iii  (54.0%)
 |                 | dynamic-programing/dp-multi-d/longest-palindromic-substring   | https://leetcode.com/problems/longest-palindromic-substring  (32.6%)
 |                 | dynamic-programing/dp-1d/maximum-subarray   | https://leetcode.com/problems/maximum-subarray  (50.3%)
 |                 | dynamic-programing/dp-1d/coin-change   | https://leetcode.com/problems/coin-change  (42.6%)
