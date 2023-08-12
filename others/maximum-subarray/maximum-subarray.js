@@ -21,7 +21,6 @@
 
 
 // Let use a other algorithm: Kadane
-
 const maxSubArray = function (nums) {
     if(!nums.length) return 0;
     let globalMax = nums[0];

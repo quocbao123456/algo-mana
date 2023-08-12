@@ -27,6 +27,7 @@
 | **Medium**      |  hash/longest-substring-without-repeating-characters    |   https://leetcode.com/problems/longest-substring-without-repeating-characters (33.9%)
 |       |  hash/group-anagrams    |   https://leetcode.com/problems/group-anagrams/    (66.8%)
 |       |  hash/longest-consecutive-sequence    |   https://leetcode.com/problems/longest-consecutive-sequence/    (47.7%)
+|       |  hash/non-divisible-subset    |  https://www.hackerrank.com/challenges/non-divisible-subset/problem
 
 ### Two pointer
 | Level  | Problem | Resource
@@ -41,5 +42,14 @@
 | **Easy**      | | https://leetcode.com/problems/fibonacci-number  (70.1%)
 | **Medium**      | dynamic-programing/dp-1d/robber   | https://leetcode.com/problems/house-robber  (49.7%) (guide img)<br /> https://leetcode.com/problems/house-robber-ii   (41.3%) https://leetcode.com/problems/house-robber-iii  (54.0%)
 |                 | dynamic-programing/dp-multi-d/longest-palindromic-substring   | https://leetcode.com/problems/longest-palindromic-substring  (32.6%)
-|                 | dynamic-programing/dp-1d/maximum-subarray   | https://leetcode.com/problems/maximum-subarray  (50.3%)
 |                 | dynamic-programing/dp-1d/coin-change   | https://leetcode.com/problems/coin-change  (42.6%)
+|                 | dynamic-programing/dp-multi-d/longest-common-subsequence   | https://leetcode.com/problems/longest-common-subsequence/    (57.9%)    (guide img)
+
+
+### Others
+| Level  | Label |  Problem | Resource
+| :------------ |:---------------|:---------------| :---------------|
+| **Easy**      | | |
+| **Medium**    | **Kadane**   | others/maximum-subarray | https://leetcode.com/problems/maximum-subarray  (50.3%)
+|     | **Boyer Vote**   | hash/majority-element-ii | https://leetcode.com/problems/majority-element-ii    (46.4%)
+|     | **The Dutch national flag**   | others/sort-color | https://leetcode.com/problems/sort-colors    (59.8%)
