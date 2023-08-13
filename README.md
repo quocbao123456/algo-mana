@@ -8,16 +8,18 @@
 | **Easy**      | | 
 | **Medium**      | tree/DFS/3Sum  | https://leetcode.com/problems/3sum  (33.0%)
 |       | tree/DFS/generate-parentheses     | https://leetcode.com/problems/generate-parentheses (73.1%)
-|       | tree/DFS/letter-combinations-of-a-phone-number    | https://leetcode.com/problems/letter-combinations-of-a-phone-number/  (58.1%)
+|       | tree/DFS/letter-combinations-of-a-phone-number    | https://leetcode.com/problems/letter-combinations-of-a-phone-number/  (58.1%) (guide img)
 |       | tree/DFS/sum-root-to-leaf-numbers    | https://leetcode.com/problems/sum-root-to-leaf-numbers  (61.6%)
 |       | tree/DFS/permutations    | https://leetcode.com/problems/permutations  (76.9%)
+|       | tree/DFS/path-sum-ii    | https://leetcode.com/problems/path-sum-ii  (57.5%)
 
 #### Breadth First Search (BFS)
 | Level  | Problem | Resource
 | :------------ |:---------------|:---------------|
 | **Easy**      | |
 | **Medium**      | tree/BFS/binary-tree-level-order-traversal-ii | https://leetcode.com/problems/binary-tree-level-order-traversal-ii  (61.8%)
-
+|      | tree/BFS/binary-tree-level-order-traversal | https://leetcode.com/problems/binary-tree-level-order-traversal/   (65.3%)
+|      | tree/BFS/binary-tree-zigzag-level-order-traversal | https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal   (57.6%)
 
 
 ### Hash Table
@@ -44,6 +46,12 @@
 |                 | dynamic-programing/dp-multi-d/longest-palindromic-substring   | https://leetcode.com/problems/longest-palindromic-substring  (32.6%)
 |                 | dynamic-programing/dp-1d/coin-change   | https://leetcode.com/problems/coin-change  (42.6%)
 |                 | dynamic-programing/dp-multi-d/longest-common-subsequence   | https://leetcode.com/problems/longest-common-subsequence/    (57.9%)    (guide img)
+
+### Binary search
+| Level  | Problem | Resource
+| :------------ |:---------------| :---------------|
+| **Easy**      | | |
+| **Medium**      | binary-search/minimize-the-maximum-difference-of-pairs | https://leetcode.com/problems/minimize-the-maximum-difference-of-pairs/  (40.5%) (guide img)
 
 
 ### Others
