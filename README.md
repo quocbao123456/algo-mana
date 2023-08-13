@@ -46,6 +46,7 @@
 |                 | dynamic-programing/dp-multi-d/longest-palindromic-substring   | https://leetcode.com/problems/longest-palindromic-substring  (32.6%)
 |                 | dynamic-programing/dp-1d/coin-change   | https://leetcode.com/problems/coin-change  (42.6%)
 |                 | dynamic-programing/dp-multi-d/longest-common-subsequence   | https://leetcode.com/problems/longest-common-subsequence/    (57.9%)    (guide img)
+|                 | dynamic-programing/dp-1d/valid-partition   | https://leetcode.com/problems/check-if-there-is-a-valid-partition-for-the-array   (48.7%)    (guide img)
 
 ### Binary search
 | Level  | Problem | Resource
@@ -61,3 +62,4 @@
 | **Medium**    | **Kadane**   | others/maximum-subarray | https://leetcode.com/problems/maximum-subarray  (50.3%)
 |     | **Boyer Vote**   | hash/majority-element-ii | https://leetcode.com/problems/majority-element-ii    (46.4%)
 |     | **The Dutch national flag**   | others/sort-color | https://leetcode.com/problems/sort-colors    (59.8%)
+|     | **Quick Select**   | others/kth-largest-element | https://leetcode.com/problems/kth-largest-element-in-an-array    (66.8%)  (guide img)
