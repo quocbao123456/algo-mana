@@ -37,7 +37,7 @@
 | **Easy**      | 
 | **Medium**      | two-pointer/3Sum   | https://leetcode.com/problems/3sum  (33.0%)
 |                 | two-pointer/longest-palindromic-substring   | https://leetcode.com/problems/longest-palindromic-substring (32.6%)
-
+|                 | two-pointer/container-with-most-water   | https://leetcode.com/problems/container-with-most-water/  (54.1%) (guide img)
 ### Dynamic Programming
 | Level  | Problem | Resource
 | :------------ |:---------------| :---------------|
@@ -47,6 +47,8 @@
 |                 | dynamic-programing/dp-1d/coin-change   | https://leetcode.com/problems/coin-change  (42.6%)
 |                 | dynamic-programing/dp-multi-d/longest-common-subsequence   | https://leetcode.com/problems/longest-common-subsequence/    (57.9%)    (guide img)
 |                 | dynamic-programing/dp-1d/valid-partition   | https://leetcode.com/problems/check-if-there-is-a-valid-partition-for-the-array   (48.7%)    (guide img)
+|                 | dynamic-programing/dp-1d/decode-way   | https://leetcode.com/problems/decode-ways    (33.2%)
+|                 | dynamic-programing/dp-multi-d/guess-number-higher-or-lower-ii   | https://leetcode.com/problems/guess-number-higher-or-lower-ii   (47.7%) (guide img)
 
 ### Binary search
 | Level  | Problem | Resource
