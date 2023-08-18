@@ -12,6 +12,7 @@
 |       | tree/DFS/sum-root-to-leaf-numbers    | https://leetcode.com/problems/sum-root-to-leaf-numbers  (61.6%)
 |       | tree/DFS/permutations    | https://leetcode.com/problems/permutations  (76.9%)
 |       | tree/DFS/path-sum-ii    | https://leetcode.com/problems/path-sum-ii  (57.5%)
+|       | tree/DFS/add-parentheses    | https://leetcode.com/problems/different-ways-to-add-parentheses  (64.5%) (guide img)
 
 #### Breadth First Search (BFS)
 | Level  | Problem | Resource
@@ -49,6 +50,7 @@
 |                 | dynamic-programing/dp-1d/valid-partition   | https://leetcode.com/problems/check-if-there-is-a-valid-partition-for-the-array   (48.7%)    (guide img)
 |                 | dynamic-programing/dp-1d/decode-way   | https://leetcode.com/problems/decode-ways    (33.2%)
 |                 | dynamic-programing/dp-multi-d/guess-number-higher-or-lower-ii   | https://leetcode.com/problems/guess-number-higher-or-lower-ii   (47.7%) (guide img)
+|                 | dynamic-programing/dp-1d/integer-replacement   | https://leetcode.com/problems/integer-replacement/  (35.3%) (guide img)
 
 ### Binary search
 | Level  | Problem | Resource
@@ -56,6 +58,11 @@
 | **Easy**      | | |
 | **Medium**      | binary-search/minimize-the-maximum-difference-of-pairs | https://leetcode.com/problems/minimize-the-maximum-difference-of-pairs/  (40.5%) (guide img)
 
+### Sliding window
+| Level  | Problem | Resource
+| :------------ |:---------------| :---------------|
+| **Easy**      | | |
+| **Medium**      | sliding-window/longest-substring-with-at-least-k-repeating-characters | https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters (44.8%) (guide img)
 
 ### Others
 | Level  | Label |  Problem | Resource
