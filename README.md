@@ -39,6 +39,8 @@
 | **Medium**      | two-pointer/3Sum   | https://leetcode.com/problems/3sum  (33.0%)
 |                 | two-pointer/longest-palindromic-substring   | https://leetcode.com/problems/longest-palindromic-substring (32.6%)
 |                 | two-pointer/container-with-most-water   | https://leetcode.com/problems/container-with-most-water/  (54.1%) (guide img)
+|                 | two-pointer/longest-mountain-in-array   | https://leetcode.com/problems/longest-mountain-in-array  (40.2%)
+
 ### Dynamic Programming
 | Level  | Problem | Resource
 | :------------ |:---------------| :---------------|
@@ -51,6 +53,7 @@
 |                 | dynamic-programing/dp-1d/decode-way   | https://leetcode.com/problems/decode-ways    (33.2%)
 |                 | dynamic-programing/dp-multi-d/guess-number-higher-or-lower-ii   | https://leetcode.com/problems/guess-number-higher-or-lower-ii   (47.7%) (guide img)
 |                 | dynamic-programing/dp-1d/integer-replacement   | https://leetcode.com/problems/integer-replacement/  (35.3%) (guide img)
+|                 | dynamic-programing/dp-1d/unique-binary-search-trees   | https://leetcode.com/problems/unique-binary-search-trees (60.2%) (guide img)
 
 ### Binary search
 | Level  | Problem | Resource
