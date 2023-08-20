@@ -13,6 +13,7 @@
 |       | tree/DFS/permutations    | https://leetcode.com/problems/permutations  (76.9%)
 |       | tree/DFS/path-sum-ii    | https://leetcode.com/problems/path-sum-ii  (57.5%)
 |       | tree/DFS/add-parentheses    | https://leetcode.com/problems/different-ways-to-add-parentheses  (64.5%) (guide img)
+|       | tree/DFS/additive-number    | https://leetcode.com/problems/additive-number/   (31.2%) (guide img)
 
 #### Breadth First Search (BFS)
 | Level  | Problem | Resource
@@ -66,6 +67,7 @@
 | :------------ |:---------------| :---------------|
 | **Easy**      | | |
 | **Medium**      | sliding-window/longest-substring-with-at-least-k-repeating-characters | https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters (44.8%) (guide img)
+|      | sliding-window/gas-station | https://leetcode.com/problems/gas-station  (45.9%)
 
 ### Others
 | Level  | Label |  Problem | Resource
