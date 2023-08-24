@@ -55,12 +55,14 @@
 |                 | dynamic-programing/dp-multi-d/guess-number-higher-or-lower-ii   | https://leetcode.com/problems/guess-number-higher-or-lower-ii   (47.7%) (guide img)
 |                 | dynamic-programing/dp-1d/integer-replacement   | https://leetcode.com/problems/integer-replacement/  (35.3%) (guide img)
 |                 | dynamic-programing/dp-1d/unique-binary-search-trees   | https://leetcode.com/problems/unique-binary-search-trees (60.2%) (guide img)
+|                 | dynamic-programing/dp-1d/maximize-the-profit-as-the-salesman   | https://leetcode.com/problems/maximize-the-profit-as-the-salesman  (33.5%) (guide img)
 
 ### Binary search
 | Level  | Problem | Resource
 | :------------ |:---------------| :---------------|
 | **Easy**      | | |
 | **Medium**      | binary-search/minimize-the-maximum-difference-of-pairs | https://leetcode.com/problems/minimize-the-maximum-difference-of-pairs/  (40.5%) (guide img)
+|                 | dynamic-programing/dp-1d/maximize-the-profit-as-the-salesman   | https://leetcode.com/problems/maximize-the-profit-as-the-salesman  (33.5%) (guide img)
 
 ### Sliding window
 | Level  | Problem | Resource
@@ -68,6 +70,12 @@
 | **Easy**      | | |
 | **Medium**      | sliding-window/longest-substring-with-at-least-k-repeating-characters | https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters (44.8%) (guide img)
 |      | sliding-window/gas-station | https://leetcode.com/problems/gas-station  (45.9%)
+
+### Fast and slow pointers
+| Level  | Problem | Resource
+| :------------ |:---------------| :---------------|
+| **Easy**      | | |
+| **Medium**      |  dynamic-programing/dp-1d/maximize-the-profit-as-the-salesman   | https://leetcode.com/problems/maximize-the-profit-as-the-salesman  (33.5%) (guide img)
 
 ### Others
 | Level  | Label |  Problem | Resource
@@ -77,3 +85,8 @@
 |     | **Boyer Vote**   | hash/majority-element-ii | https://leetcode.com/problems/majority-element-ii    (46.4%)
 |     | **The Dutch national flag**   | others/sort-color | https://leetcode.com/problems/sort-colors    (59.8%)
 |     | **Quick Select**   | others/kth-largest-element | https://leetcode.com/problems/kth-largest-element-in-an-array    (66.8%)  (guide img)
+
+
+
+
+
