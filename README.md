@@ -14,6 +14,8 @@
 |       | tree/DFS/path-sum-ii    | https://leetcode.com/problems/path-sum-ii  (57.5%)
 |       | tree/DFS/add-parentheses    | https://leetcode.com/problems/different-ways-to-add-parentheses  (64.5%) (guide img)
 |       | tree/DFS/additive-number    | https://leetcode.com/problems/additive-number/   (31.2%) (guide img)
+|       | tree/DFS/path-sum-iii    | https://leetcode.com/problems/path-sum-iii/description/  (47.3%)
+|       | tree/DFS/interleaving-string    | https://leetcode.com/problems/interleaving-string/  (38.4%)
 
 #### Breadth First Search (BFS)
 | Level  | Problem | Resource
@@ -32,6 +34,7 @@
 |       |  hash/group-anagrams    |   https://leetcode.com/problems/group-anagrams/    (66.8%)
 |       |  hash/longest-consecutive-sequence    |   https://leetcode.com/problems/longest-consecutive-sequence/    (47.7%)
 |       |  hash/non-divisible-subset    |  https://www.hackerrank.com/challenges/non-divisible-subset/problem
+|       |  hash/reorganize-string    |  https://leetcode.com/problems/reorganize-string/ (54.3%)
 
 ### Two pointer
 | Level  | Problem | Resource
@@ -63,6 +66,7 @@
 | **Easy**      | | |
 | **Medium**      | binary-search/minimize-the-maximum-difference-of-pairs | https://leetcode.com/problems/minimize-the-maximum-difference-of-pairs/  (40.5%) (guide img)
 |                 | dynamic-programing/dp-1d/maximize-the-profit-as-the-salesman   | https://leetcode.com/problems/maximize-the-profit-as-the-salesman  (33.5%) (guide img)
+|                 | binary-search/find-right-interval   | https://leetcode.com/problems/find-right-interval/description/   (51.3%)
 
 ### Sliding window
 | Level  | Problem | Resource
@@ -70,6 +74,7 @@
 | **Easy**      | | |
 | **Medium**      | sliding-window/longest-substring-with-at-least-k-repeating-characters | https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters (44.8%) (guide img)
 |      | sliding-window/gas-station | https://leetcode.com/problems/gas-station  (45.9%)
+|      | sliding-window/find-all-anagrams | https://leetcode.com/problems/find-all-anagrams-in-a-string/description/ (50.4%)
 
 ### Fast and slow pointers
 | Level  | Problem | Resource
