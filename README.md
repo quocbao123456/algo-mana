@@ -16,6 +16,7 @@
 |       | tree/DFS/additive-number    | https://leetcode.com/problems/additive-number/   (31.2%) (guide img)
 |       | tree/DFS/path-sum-iii    | https://leetcode.com/problems/path-sum-iii/description/  (47.3%)
 |       | tree/DFS/interleaving-string    | https://leetcode.com/problems/interleaving-string/  (38.4%)
+|       | tree/DFS/course-schedule    | https://leetcode.com/problems/course-schedule/   (46.2%)
 
 #### Breadth First Search (BFS)
 | Level  | Problem | Resource
@@ -26,7 +27,7 @@
 |      | tree/BFS/binary-tree-zigzag-level-order-traversal | https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal   (57.6%)
 
 
-### Hash Table
+### Hash Table, Set
 | Level  | Problem | Resource
 | :------------ |:---------------| :---------------|
 | **Easy**      | hash/two-sum    |   https://leetcode.com/problems/two-sum/    (50.4%)
@@ -35,6 +36,8 @@
 |       |  hash/longest-consecutive-sequence    |   https://leetcode.com/problems/longest-consecutive-sequence/    (47.7%)
 |       |  hash/non-divisible-subset    |  https://www.hackerrank.com/challenges/non-divisible-subset/problem
 |       |  hash/reorganize-string    |  https://leetcode.com/problems/reorganize-string/ (54.3%)
+|       |  hash/beautiful-array    |  https://leetcode.com/problems/find-the-minimum-possible-sum-of-a-beautiful-array    (47.6%)
+|       |  hash/intersection-arr    |  https://leetcode.com/problems/find-the-minimum-possible-sum-of-a-beautiful-array    (47.6%)
 
 ### Two pointer
 | Level  | Problem | Resource
@@ -59,6 +62,8 @@
 |                 | dynamic-programing/dp-1d/integer-replacement   | https://leetcode.com/problems/integer-replacement/  (35.3%) (guide img)
 |                 | dynamic-programing/dp-1d/unique-binary-search-trees   | https://leetcode.com/problems/unique-binary-search-trees (60.2%) (guide img)
 |                 | dynamic-programing/dp-1d/maximize-the-profit-as-the-salesman   | https://leetcode.com/problems/maximize-the-profit-as-the-salesman  (33.5%) (guide img)
+|                 | dynamic-programing/dp-multi-d/edit-distance   | https://leetcode.com/problems/edit-distance/ (55.3%)
+|                 | dynamic-programing/dp-1d/findLongestChain   | https://leetcode.com/problems/maximum-length-of-pair-chain/  (59.4%) (guide img)
 
 ### Binary search
 | Level  | Problem | Resource
@@ -81,6 +86,21 @@
 | :------------ |:---------------| :---------------|
 | **Easy**      | | |
 | **Medium**      |  dynamic-programing/dp-1d/maximize-the-profit-as-the-salesman   | https://leetcode.com/problems/maximize-the-profit-as-the-salesman  (33.5%) (guide img)
+
+### Stack
+| Level  | Problem | Resource
+| :------------ |:---------------| :---------------|
+| **Easy**      | | |
+| **Medium**      |  stack/partern132   | https://leetcode.com/problems/132-pattern/   (32.3%)
+|       |  stack/polish-notation   | https://leetcode.com/problems/evaluate-reverse-polish-notation/  (47.1%)
+
+### Javascript
+| Level  | Problem | Resource
+| :------------ |:---------------| :---------------|
+| **Easy**      | | |
+| **Medium**      |  stack/partern132   | https://leetcode.com/problems/132-pattern/   (32.3%)
+|       |  stack/polish-notation   | https://leetcode.com/problems/evaluate-reverse-polish-notation/  (47.1%)
+
 
 ### Others
 | Level  | Label |  Problem | Resource
