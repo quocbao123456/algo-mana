@@ -17,6 +17,7 @@
 |       | tree/DFS/path-sum-iii    | https://leetcode.com/problems/path-sum-iii/description/  (47.3%)
 |       | tree/DFS/interleaving-string    | https://leetcode.com/problems/interleaving-string/  (38.4%)
 |       | tree/DFS/course-schedule    | https://leetcode.com/problems/course-schedule/   (46.2%)
+|       | tree/DFS/delete-nodes    | https://leetcode.com/problems/delete-nodes-and-return-forest  (69.2%)
 
 #### Breadth First Search (BFS)
 | Level  | Problem | Resource
@@ -64,6 +65,8 @@
 |                 | dynamic-programing/dp-1d/maximize-the-profit-as-the-salesman   | https://leetcode.com/problems/maximize-the-profit-as-the-salesman  (33.5%) (guide img)
 |                 | dynamic-programing/dp-multi-d/edit-distance   | https://leetcode.com/problems/edit-distance/ (55.3%)
 |                 | dynamic-programing/dp-1d/findLongestChain   | https://leetcode.com/problems/maximum-length-of-pair-chain/  (59.4%) (guide img)
+|       |  dynamic-programing/dp-1d/extra-characters   | https://leetcode.com/problems/extra-characters-in-a-string   (53.4%)
+|       |  dynamic-programing/dp-1d/extra-characters   | https://leetcode.com/problems/extra-characters-in-a-string   (53.4%)
 
 ### Binary search
 | Level  | Problem | Resource
@@ -93,6 +96,12 @@
 | **Easy**      | | |
 | **Medium**      |  stack/partern132   | https://leetcode.com/problems/132-pattern/   (32.3%)
 |       |  stack/polish-notation   | https://leetcode.com/problems/evaluate-reverse-polish-notation/  (47.1%)
+
+### Trie
+| Level  | Problem | Resource
+| :------------ |:---------------| :---------------|
+| **Easy**      | | |
+| **Medium**      |  dynamic-programing/dp-1d/extra-characters   | https://leetcode.com/problems/extra-characters-in-a-string   (53.4%)
 
 ### Javascript
 | Level  | Problem | Resource
