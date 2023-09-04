@@ -111,6 +111,20 @@
 |       |  stack/polish-notation   | https://leetcode.com/problems/evaluate-reverse-polish-notation/  (47.1%)
 
 
+###  Math
+| Level  | Problem | Resource
+| :------------ |:---------------| :---------------|
+| **Easy**      | math/count-symmetric-integers | https://leetcode.com/problems/count-symmetric-integers/   (73.3%) |
+| **Medium**      |  stack/partern132   | https://leetcode.com/problems/132-pattern/   (32.3%)
+|       |  math/special-number   | https://leetcode.com/problems/minimum-operations-to-make-a-special-number/   (34.1%)
+
+###  Prefix sum
+| Level  | Problem | Resource
+| :------------ |:---------------| :---------------|
+| **Easy**      |  |  |
+| **Medium**      |  prefix-sum/interesting-subarrays   | https://leetcode.com/problems/count-of-interesting-subarrays/    (30.5%)
+
+
 ### Others
 | Level  | Label |  Problem | Resource
 | :------------ |:---------------|:---------------| :---------------|
