@@ -96,6 +96,8 @@
 | **Easy**      | | |
 | **Medium**      |  stack/partern132   | https://leetcode.com/problems/132-pattern/   (32.3%)
 |       |  stack/polish-notation   | https://leetcode.com/problems/evaluate-reverse-polish-notation/  (47.1%)
+|       |  stack/next-greater-element-ii   | https://leetcode.com/problems/next-greater-element-ii/   (63.4%)
+
 
 ### Trie
 | Level  | Problem | Resource
@@ -124,6 +126,12 @@
 | **Easy**      |  |  |
 | **Medium**      |  prefix-sum/interesting-subarrays   | https://leetcode.com/problems/count-of-interesting-subarrays/    (30.5%)
 
+
+###  Linked list
+| Level  | Problem | Resource
+| :------------ |:---------------| :---------------|
+| **Easy**      |  |  |
+| **Medium**      |  linked-list/split-linked-list-in-parts   | https://leetcode.com/problems/split-linked-list-in-parts    (61.0%)
 
 ### Others
 | Level  | Label |  Problem | Resource
