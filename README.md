@@ -39,6 +39,7 @@
 |       |  hash/reorganize-string    |  https://leetcode.com/problems/reorganize-string/ (54.3%)
 |       |  hash/beautiful-array    |  https://leetcode.com/problems/find-the-minimum-possible-sum-of-a-beautiful-array    (47.6%)
 |       |  hash/intersection-arr    |  https://leetcode.com/problems/find-the-minimum-possible-sum-of-a-beautiful-array    (47.6%)
+|       |  hash/string-equal-operation    |  https://leetcode.com/problems/check-if-strings-can-be-made-equal-with-operations-ii/ (53.6%)
 
 ### Two pointer
 | Level  | Problem | Resource
@@ -67,7 +68,8 @@
 |                 | dynamic-programing/dp-1d/findLongestChain   | https://leetcode.com/problems/maximum-length-of-pair-chain/  (59.4%) (guide img)
 |       |  dynamic-programing/dp-1d/extra-characters   | https://leetcode.com/problems/extra-characters-in-a-string   (53.4%)
 |       |  dynamic-programing/dp-1d/extra-characters   | https://leetcode.com/problems/extra-characters-in-a-string   (53.4%)
-
+|       |  dynamic-programing/dp-1d/max-non-decreasing   | https://leetcode.com/problems/longest-non-decreasing-subarray-from-two-arrays/   (26.6%)
+|       |  dynamic-programing/dp-1d/maximum-jumps   | https://leetcode.com/problems/maximum-number-of-jumps-to-reach-the-last-index/   (28.7%)
 ### Binary search
 | Level  | Problem | Resource
 | :------------ |:---------------| :---------------|
@@ -83,6 +85,7 @@
 | **Medium**      | sliding-window/longest-substring-with-at-least-k-repeating-characters | https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters (44.8%) (guide img)
 |      | sliding-window/gas-station | https://leetcode.com/problems/gas-station  (45.9%)
 |      | sliding-window/find-all-anagrams | https://leetcode.com/problems/find-all-anagrams-in-a-string/description/ (50.4%)
+|      | sliding-window/almost-unique-subarray | https://leetcode.com/problems/maximum-sum-of-almost-unique-subarray/ (36.2%)
 
 ### Fast and slow pointers
 | Level  | Problem | Resource
