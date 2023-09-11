@@ -40,6 +40,8 @@
 |       |  hash/beautiful-array    |  https://leetcode.com/problems/find-the-minimum-possible-sum-of-a-beautiful-array    (47.6%)
 |       |  hash/intersection-arr    |  https://leetcode.com/problems/find-the-minimum-possible-sum-of-a-beautiful-array    (47.6%)
 |       |  hash/string-equal-operation    |  https://leetcode.com/problems/check-if-strings-can-be-made-equal-with-operations-ii/ (53.6%)
+|       |  hash/original-array-from-doubled    |  https://leetcode.com/problems/find-original-array-from-doubled-array/   (40.5%)
+|       |  hash/group-the-people    |  https://leetcode.com/problems/group-the-people-given-the-group-size-they-belong-to   (86.9%)
 
 ### Two pointer
 | Level  | Problem | Resource
