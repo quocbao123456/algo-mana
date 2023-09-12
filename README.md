@@ -42,6 +42,7 @@
 |       |  hash/string-equal-operation    |  https://leetcode.com/problems/check-if-strings-can-be-made-equal-with-operations-ii/ (53.6%)
 |       |  hash/original-array-from-doubled    |  https://leetcode.com/problems/find-original-array-from-doubled-array/   (40.5%)
 |       |  hash/group-the-people    |  https://leetcode.com/problems/group-the-people-given-the-group-size-they-belong-to   (86.9%)
+|       |  dynamic-programing/dp-1d/minimum-deletions    |  https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique (60.8%)
 
 ### Two pointer
 | Level  | Problem | Resource
