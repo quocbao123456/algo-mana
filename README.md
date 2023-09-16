@@ -43,6 +43,7 @@
 |       |  hash/original-array-from-doubled    |  https://leetcode.com/problems/find-original-array-from-doubled-array/   (40.5%)
 |       |  hash/group-the-people    |  https://leetcode.com/problems/group-the-people-given-the-group-size-they-belong-to   (86.9%)
 |       |  dynamic-programing/dp-1d/minimum-deletions    |  https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique (60.8%)
+|       |  hash/count-complete-subarrays    |  https://leetcode.com/problems/count-complete-subarrays-in-an-array   (63.7%)
 
 ### Two pointer
 | Level  | Problem | Resource
@@ -103,7 +104,7 @@
 | **Medium**      |  stack/partern132   | https://leetcode.com/problems/132-pattern/   (32.3%)
 |       |  stack/polish-notation   | https://leetcode.com/problems/evaluate-reverse-polish-notation/  (47.1%)
 |       |  stack/next-greater-element-ii   | https://leetcode.com/problems/next-greater-element-ii/   (63.4%)
-
+|       |  stack/minimum-additions-to-make-valid-string   | https://leetcode.com/problems/next-greater-element-ii/   (63.4%)
 
 ### Trie
 | Level  | Problem | Resource
@@ -131,7 +132,7 @@
 | :------------ |:---------------| :---------------|
 | **Easy**      |  |  |
 | **Medium**      |  prefix-sum/interesting-subarrays   | https://leetcode.com/problems/count-of-interesting-subarrays/    (30.5%)
-
+|      |  prefix-sum/sum-distance   | https://leetcode.com/problems/sum-of-distances/description/  (30.1%)
 
 ###  Linked list
 | Level  | Problem | Resource
