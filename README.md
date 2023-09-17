@@ -90,6 +90,7 @@
 |      | sliding-window/gas-station | https://leetcode.com/problems/gas-station  (45.9%)
 |      | sliding-window/find-all-anagrams | https://leetcode.com/problems/find-all-anagrams-in-a-string/description/ (50.4%)
 |      | sliding-window/almost-unique-subarray | https://leetcode.com/problems/maximum-sum-of-almost-unique-subarray/ (36.2%)
+|      | sliding-window/happy-student | https://leetcode.com/problems/happy-students (44.0%)
 
 ### Fast and slow pointers
 | Level  | Problem | Resource
