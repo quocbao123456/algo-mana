@@ -53,6 +53,7 @@
 |                 | two-pointer/longest-palindromic-substring   | https://leetcode.com/problems/longest-palindromic-substring (32.6%)
 |                 | two-pointer/container-with-most-water   | https://leetcode.com/problems/container-with-most-water/  (54.1%) (guide img)
 |                 | two-pointer/longest-mountain-in-array   | https://leetcode.com/problems/longest-mountain-in-array  (40.2%)
+|                 | two-pointer/maximum-distance-between-a-pair-of-values   | https://leetcode.com/problems/maximum-distance-between-a-pair-of-values  (53.4%)
 
 ### Dynamic Programming
 | Level  | Problem | Resource
@@ -91,6 +92,7 @@
 |      | sliding-window/find-all-anagrams | https://leetcode.com/problems/find-all-anagrams-in-a-string/description/ (50.4%)
 |      | sliding-window/almost-unique-subarray | https://leetcode.com/problems/maximum-sum-of-almost-unique-subarray/ (36.2%)
 |      | sliding-window/happy-student | https://leetcode.com/problems/happy-students (44.0%)
+|      | sliding-window/beautiful-towers-i | https://leetcode.com/problems/beautiful-towers-i/    (42.4%)
 
 ### Fast and slow pointers
 | Level  | Problem | Resource
@@ -106,6 +108,7 @@
 |       |  stack/polish-notation   | https://leetcode.com/problems/evaluate-reverse-polish-notation/  (47.1%)
 |       |  stack/next-greater-element-ii   | https://leetcode.com/problems/next-greater-element-ii/   (63.4%)
 |       |  stack/minimum-additions-to-make-valid-string   | https://leetcode.com/problems/next-greater-element-ii/   (63.4%)
+|       |  stack/remove-duplicate-letters   | https://leetcode.com/problems/remove-duplicate-letters/  (48.8%)
 
 ### Trie
 | Level  | Problem | Resource
@@ -127,6 +130,7 @@
 | **Easy**      | math/count-symmetric-integers | https://leetcode.com/problems/count-symmetric-integers/   (73.3%) |
 | **Medium**      |  stack/partern132   | https://leetcode.com/problems/132-pattern/   (32.3%)
 |       |  math/special-number   | https://leetcode.com/problems/minimum-operations-to-make-a-special-number/   (34.1%)
+|       |  math/integer-break   | https://leetcode.com/problems/integer-break  (59.8%)
 
 ###  Prefix sum
 | Level  | Problem | Resource
@@ -149,7 +153,7 @@
 |     | **Boyer Vote**   | hash/majority-element-ii | https://leetcode.com/problems/majority-element-ii    (46.4%)
 |     | **The Dutch national flag**   | others/sort-color | https://leetcode.com/problems/sort-colors    (59.8%)
 |     | **Quick Select**   | others/kth-largest-element | https://leetcode.com/problems/kth-largest-element-in-an-array    (66.8%)  (guide img)
-
+|     | **Boyer-Moore Majority Voting**   | others/majority-element-ii | https://leetcode.com/problems/majority-element-ii/   (50.2%)
 
 
 
