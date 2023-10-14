@@ -18,6 +18,24 @@ class CircularLinkedList:
             
         return list
 
+    def insert_at_index(self, index, data):
+        if self.head is None and index != 0: return
+
+        new_node = Node(data)
+        if index == 0:
+            new_node.next = self.head
+            if self.head is not None:
+                self.head.next = new_node
+            self.head = new_node
+        else:
+            current = self.head
+            for i in range(index - 1):
+                if current is None:
+                    return
+                current = current.next
+            new_node.next = current.next
+            current.next = new_node
+
     def insert(self,val):
         if self.head is None:
             new_node = Node(val)
@@ -33,7 +51,6 @@ class CircularLinkedList:
         new_node = Node(val)
         new_node.next = self.head
         tmp_node.next = new_node
-
 
     def delete(self, val):
         if self.head is None:
@@ -83,3 +100,19 @@ class CircularLinkedList:
             index += 1
         
         return -1
+
+    def sort(self):  
+        current = self.head;  
+        if(self.head == None): return
+        
+        while(True):  
+            index = current.next;  
+            while(index != self.head):  
+                if(current.data > index.data):  
+                    temp = current.data;  
+                    current.data = index.data;  
+                    index.data = temp;  
+                index= index.next;  
+            current =current.next;  
+            if(current.next == self.head):  
+                break;  

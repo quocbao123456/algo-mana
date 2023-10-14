@@ -74,16 +74,81 @@ class LinkedList:
         
         return -1
 
-list = LinkedList()
-list.insert(1)
-list.delete(3)
+    def insert_at_index(self, index, val):
+        if self.head is None and index != 0: return
+        
+        new_node = Node(val)
+        if index == 0:
+            new_node.next = self.head
+            self.head = new_node
+        else:
+            current = self.head
+            for i in range(index - 1):
+                if current is None:
+                    return
+                current = current.next
+            new_node.next = current.next
+            current.next = new_node
 
-# list.insert(5)
-# list.insert(7)
-# list.insert(10)
+    def get_middle_node(self):
+        if (self.head == None):
+            return self.head
+        slow = self.head
+        fast = self.head
+        while(fast.next != None and fast.next.next != None):
+            slow = slow.next
+            fast = fast.next.next
+        return slow
+    
+    def swap(node1: Node, node2: Node): 
+        tmp = node1.data
+        node2.data = node1.data
+        node1.data = tmp
+    
+ 
+    def sort(self):
+        # Bubble sort
+        if self.head is None:
+            return
+
+        current = None
+        new_head = None
+        move_node = None
+        prev = None
+
+        while self.head is not None:
+            prev = None
+            current = self.head
+            move_node = self.head
+
+            while current is not None:
+                if current.next is not None and current.next.data > move_node.data:
+                    move_node = current.next
+                    prev = current
+
+                current = current.next
+
+            if move_node == self.head:
+                self.head = self.head.next
+
+            if prev is not None:
+                prev.next = move_node.next
+
+            move_node.next = new_head
+            new_head = move_node
+
+        self.head = new_head
+
+# list = LinkedList()
+# list.insert(1)
+# list.delete(3)
+
+# # list.insert(5)
+# # list.insert(7)
+# # list.insert(10)
 
 
-print(list.search(4))
-print(list.search(10))
+# print(list.search(4))
+# print(list.search(10))
 
-list.print()
+# list.print()

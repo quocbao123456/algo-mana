@@ -28,6 +28,36 @@ class TestSingleOperation(unittest.TestCase):
         
         self.assertEqual(linked_list.traverse(), [1, 2])
     
+    def test_insert_by_index(self):
+        linked_list = LinkedList()
+        linked_list.insert_at_index(0, 1)
+        linked_list.insert_at_index(1, 2)
+        
+        self.assertEqual(linked_list.traverse(), [1, 2])
+        
+    def test_insert_by_index_out_range(self):
+        linked_list = LinkedList()
+        linked_list.insert_at_index(0, 1)
+        linked_list.insert_at_index(3, 2)
+        
+        self.assertEqual(linked_list.traverse(), [1])
+        
+    def test_insert_by_index_out_range_empty(self):
+        linked_list = LinkedList()
+        linked_list.insert_at_index(1, 1)
+        
+        self.assertEqual(linked_list.traverse(), [])
+    
+    def test_insert_by_index_tail(self):
+        linked_list = LinkedList()
+        linked_list.insert(1)
+        linked_list.insert(1)
+        linked_list.insert(3)
+
+        linked_list.insert_at_index(3, 2)
+        
+        
+        self.assertEqual(linked_list.traverse(), [1, 1, 3, 2])
     # Delete
     def test_delete_empty(self):
         linked_list = LinkedList()
@@ -99,6 +129,43 @@ class TestSingleOperation(unittest.TestCase):
         linked_list.insert(3)
 
         self.assertEqual(linked_list.search(3), 2)
+        
+    def test_get_middle_node_odd(self):
+        linked_list = LinkedList()
+        linked_list.insert(1)
+        linked_list.insert(1)
+        linked_list.insert(3)
+        
+        self.assertEqual(linked_list.get_middle_node().data, 1)
+    
+    def test_get_middle_node_even(self):
+        linked_list = LinkedList()
+        linked_list.insert(1)
+        linked_list.insert(1)
+        linked_list.insert(3)
+        linked_list.insert(5)
+        
+        self.assertEqual(linked_list.get_middle_node().data, 1)
+      
+    def test_get_middle_node_empty(self):
+        linked_list = LinkedList()
+        
+        self.assertEqual(linked_list.get_middle_node(), None)      
+           
+    def test_sort(self):
+        linked_list = LinkedList()
+        linked_list.insert(1)
+        linked_list.insert(9)
+        linked_list.insert(3)
+        linked_list.sort()
+        
+        self.assertEqual(linked_list.traverse(), [1, 3, 9])
+        
+    def test_sort_empty(self):
+        linked_list = LinkedList()
+        linked_list.sort()
+        
+        self.assertEqual(linked_list.traverse(), [])
         
 class TestMultiOperation(unittest.TestCase):
     def test_multi_operations(self):
