@@ -4,21 +4,23 @@ class Node:
         self.prev = None
         self.next = None
 
-class LinkedList:
+class DoubleLinkedList:
     def __init__(self):
         self.head = None
     
     def print(self):
-        tmpNode = self.head
-        while tmpNode:
-            print(tmpNode.data)
-            tmpNode = tmpNode.next
+        tmp_node = self.head
+        while tmp_node:
+            print(tmp_node.data)
+            tmp_node = tmp_node.next
 
     def traverse(self):
-        tmpNode = self.head
-        while tmpNode:
-            print(tmpNode.data)
-            tmpNode = tmpNode.next
+        tmp_node = self.head
+        list = []
+        while tmp_node:
+            list.append(tmp_node.data)
+            tmp_node = tmp_node.next
+        return list
 
     def insert(self,val):
         if self.head is None:
@@ -26,13 +28,13 @@ class LinkedList:
             return 
         
         # Traverse to tail node
-        tmpNode = self.head
-        while tmpNode.next:
-            tmpNode = tmpNode.next
+        tmp_node = self.head
+        while tmp_node.next:
+            tmp_node = tmp_node.next
 
-        newNode = Node(val)
-        tmpNode.next = newNode
-        newNode.prev = tmpNode
+        new_node = Node(val)
+        tmp_node.next = new_node
+        new_node.prev = tmp_node
 
     def delete(self, val):
         if self.head is None:
@@ -43,38 +45,38 @@ class LinkedList:
             return
         
         # Traverse to tail node
-        tmpNode = self.head
-        while tmpNode.next:
-            if(tmpNode.data == val):
+        tmp_node = self.head
+        while tmp_node.next:
+            if(tmp_node.data == val):
                 break
 
-            tmpNode = tmpNode.next
+            tmp_node = tmp_node.next
 
-        if(tmpNode is None):
+        if(tmp_node.prev is None):
             return
     
-        prevNode = tmpNode.prev
-        nextNode = tmpNode.next
+        prev_node = tmp_node.prev
+        next_node = tmp_node.next
 
-        prevNode.next = nextNode
-        tmpNode = None
+        prev_node.next = next_node
+        tmp_node = None
 
     def search(self, target):
         if self.head is None:
             return -1
         
-        tmpNode = self.head
+        tmp_node = self.head
         index = 0
-        while tmpNode:
-            if(tmpNode.data == target):
+        while tmp_node:
+            if(tmp_node.data == target):
                 return index
-            tmpNode = tmpNode.next
+            tmp_node = tmp_node.next
             index += 1
         
         return -1
 
     
-list = LinkedList()
+list = DoubleLinkedList()
 list.insert(3)
 list.insert(5)
 list.insert(7)
