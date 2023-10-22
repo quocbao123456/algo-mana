@@ -1,6 +1,13 @@
 import unittest
 from binary_search import * 
 
+class TestBinarySearcEmptyArray(unittest.TestCase):
+    arr = []
+    def test_inner_element(self):
+        self.assertEqual(binary_search(self.arr, 10), -1)
+        self.assertEqual(binary_search_leftmost(self.arr, 10), -1)
+        self.assertEqual(binary_search_rightmost(self.arr, 10), -1)
+        
 class TestBinarySearchUniqueArray(unittest.TestCase):
     arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 17]
 
@@ -33,7 +40,6 @@ class TestBinarySearchUniqueArray(unittest.TestCase):
         self.assertEqual(binary_search(self.arr, 13), -1)
         self.assertEqual(binary_search_leftmost(self.arr, 13), -1)
         self.assertEqual(binary_search_rightmost(self.arr, 13), -1)
-        
         
 class TestBinarySearchDuplicateArray(unittest.TestCase):
     arr = [1, 1, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10, 10, 17, 17]

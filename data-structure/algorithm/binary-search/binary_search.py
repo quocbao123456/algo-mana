@@ -47,9 +47,7 @@ def binary_search_leftmost(arr, x):
     return -1
 
 # arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 11, 12]
-arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 17]
-print(binary_search_rightmost(arr, 17), arr[binary_search_rightmost(arr, 17)])
-
+# arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 17]
 
 # print(binary_search(arr, 10))
 # print(binary_search(arr, 13))
