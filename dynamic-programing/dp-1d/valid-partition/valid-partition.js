@@ -40,38 +40,63 @@
 //     return dp(0, [])
 // };
 
+// export const validPartition = function (nums) {
+//     const dp = Array(nums.length).fill(0);
+
+//     function isValid(index) {
+//         let result = 0;
+
+//         if (nums[index] === nums[index - 1]) {
+//             result = index >= 2 ? dp[index - 2] : 1;
+//         }
+//         if (result) return true;
+
+//         if (
+//             nums[index] === nums[index - 1] &&
+//             nums[index] === nums[index - 2]
+//         ) {
+//             result = index >= 3 ? dp[index - 3] : 1;
+//         }
+//         if (result) return true;
+
+//         if (
+//             nums[index] === nums[index - 1] + 1 &&
+//             nums[index] === nums[index - 2] + 2
+//         ) {
+//             result = index >= 3 ? dp[index - 3] : 1;
+//         }
+
+//         return result;
+//     }
+
+//     for (let index = 0; index < nums.length; index++) {
+//         dp[index] = isValid(index);
+//     }
+
+//     return Boolean(dp.pop());
+// };
+
 export const validPartition = function (nums) {
-    const dp = Array(nums.length).fill(0);
+    if (nums.length === 1) return false;
 
-    function isValid(index) {
-        let result = 0;
+    let dp = [true, false, nums.length > 1 && nums[0] === nums[1]];
 
-        if (nums[index] === nums[index - 1]) {
-            result = index >= 2 ? dp[index - 2] : 1;
-        }
-        if (result) return true;
+    for (let index = 2; index < nums.length; index++) {
+        let result =
+            (nums[index] === nums[index - 1] && dp[1]) ||
+            (nums[index] === nums[index - 1] &&
+                nums[index] === nums[index - 2] &&
+                dp[0]) ||
+            (nums[index] === nums[index - 1] + 1 &&
+                nums[index] === nums[index - 2] + 2 &&
+                dp[0]);
 
-        if (
-            nums[index] === nums[index - 1] &&
-            nums[index] === nums[index - 2]
-        ) {
-            result = index >= 3 ? dp[index - 3] : 1;
-        }
-        if (result) return true;
-
-        if (
-            nums[index] === nums[index - 1] + 1 &&
-            nums[index] === nums[index - 2] + 2
-        ) {
-            result = index >= 3 ? dp[index - 3] : 1;
-        }
-
-        return result;
+        [dp[0], dp[1], dp[2]] = [dp[1], dp[2], result];
     }
 
-    for (let index = 0; index < nums.length; index++) {
-        dp[index] = isValid(index);
-    }
-
-    return Boolean(dp.pop());
+    return dp[2];
 };
+
+validPartition([4, 4, 4, 5, 6]);
+validPartition([1, 2, 1]);
+// validPartition([803201,803201,803201,803201,803202,803203])

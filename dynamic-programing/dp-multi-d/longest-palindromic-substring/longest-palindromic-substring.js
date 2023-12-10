@@ -1,28 +1,28 @@
 //  https://leetcode.com/problems/longest-palindromic-substring/    (32.6%)
 
 // DP --> not pass
-export default longestPalindrome = function (s) {
-    if(!s.length) return "";
+// export default longestPalindrome = function (s) {
+//     if(!s.length) return "";
 
-    function dp(i, j){
+//     function dp(i, j){
 
-        if(i === j) return s[i];
-        if(i > j) return "";
+//         if(i === j) return s[i];
+//         if(i > j) return "";
 
-        const cross = dp(i + 1, j - 1);
-        if(s[i] === s[j] && cross.length === (j - i - 1)) {
-            return s[i] + cross + s[j];
-        }
-            
-        const bottom = dp(i + 1, j);
-        const left = dp(i, j - 1);
-        return bottom.length >= left.length ? bottom : left;
-    }
+//         const cross = dp(i + 1, j - 1);
+//         if(s[i] === s[j] && cross.length === (j - i - 1)) {
+//             return s[i] + cross + s[j];
+//         }
 
-    return dp(0, s.length - 1)
-};
+//         const bottom = dp(i + 1, j);
+//         const left = dp(i, j - 1);
+//         return bottom.length >= left.length ? bottom : left;
+//     }
 
-// Complexity: 2^N (every case)
+//     return dp(0, s.length - 1)
+// };
+
+// Complexity:   (every case)
 // Mem: 2^N
 
 // // DP (memozied)
@@ -44,7 +44,7 @@ export default longestPalindrome = function (s) {
 //             memozieds.set(`${i},${j}`, result)
 //             return result;
 //         }
-            
+
 //         const bottom = dp(i + 1, j);
 //         const left = dp(i, j - 1);
 //         result = bottom.length >= left.length ? bottom : left;
@@ -55,7 +55,6 @@ export default longestPalindrome = function (s) {
 
 //     return dp(0, s.length - 1)
 // };
-
 
 // // DP (Tabulation)
 // export default longestPalindrome = function (s) {
@@ -94,3 +93,64 @@ export default longestPalindrome = function (s) {
 
 // Refer: Using 2 pointer to solve this problem
 
+// const longestPalindrome = function (s) {
+//     if (!s) return "";
+
+//     // Init
+//     let result = s[0];
+//     const len = s.length * 2 - 1;
+
+//     // Through
+//     for (let index = 1; index < len - 1; index++) {
+//         let left = index % 2 === 0 ? index / 2 - 1 : Math.floor(index / 2);
+//         let right = index % 2 === 0 ? left + 2 : left + 1;
+//         let local = "";
+
+//         while (left > 0 && right < s.length) {
+//             if (s[left] !== s[right]) break;
+//             left--;
+//             right++;
+//         }
+
+//         local =
+//             s[left] === s[right]
+//                 ? s.slice(left, right + 1)
+//                 : s.slice(left + 1, right);
+
+//         if (local.length > result.length) result = local;
+//     }
+//     return result;
+// };
+
+const longestPalindrome = function (s) {
+    if (!s) return "";
+
+    const table = Array.from({ length: s.length }, () =>
+        Array.from({ length: s.length }, () => "")
+    );
+    for (let x = s.length - 1; x >= 0; x--) {
+        for (let y = 0; y < s.length; y++) {
+            if (x > y) continue;
+
+            if (x === y) {
+                table[x][y] = s[x];
+                continue;
+            }
+
+            if (s[x] === s[y] && table[x + 1][y - 1].length === y - x - 1) {
+                table[x][y] = s[x] + table[x + 1][y - 1] + s[y];
+                continue;
+            }
+
+            const left = table[x][y - 1];
+            const bottom = table[x + 1][y];
+
+            table[x][y] = left.length > bottom.length ? left : bottom;
+        }
+    }
+
+    return table[0][s.length - 1];
+};
+
+longestPalindrome("babad");
+// longestPalindrome("cbbd");

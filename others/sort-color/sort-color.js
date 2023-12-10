@@ -1,7 +1,5 @@
-// https://leetcode.com/problems/sort-colors    (59.8%)
-
-
-// Implement a 0(N) solution
+// https://leetcode.com/problems/sort-colors (59.8%)
+// Implement 0(N) solution
 
 // --> Dutch national flag problem
 const PIVOT = 1;

@@ -33,6 +33,7 @@ class TestAVLTreeOperations(unittest.TestCase):
         
         self.assertEqual(self.avlTree.traverse(self.root), [1, 2, 10])
         self.assertEqual(self.avlTree.getHeight(self.root), 2)
+        
         self.assertEqual(self.avlTree.getBalance(self.root), 0)   
         
     def test_insert_skewed_right(self):
@@ -42,6 +43,7 @@ class TestAVLTreeOperations(unittest.TestCase):
         
         self.assertEqual(self.avlTree.traverse(self.root), [1, 2, 3])
         self.assertEqual(self.avlTree.getHeight(self.root), 2)
+        
         self.assertEqual(self.avlTree.getBalance(self.root), 0)   
         
     def test_insert_skewed_left(self):
@@ -74,6 +76,25 @@ class TestAVLTreeOperations(unittest.TestCase):
         self.assertEqual(self.avlTree.search(self.root, 0), False)
         self.assertEqual(self.avlTree.search(self.root, 3), True)
     
+    def test_delete_root(self):
+        self.root = self.avlTree.insert(self.root, 3)
+        self.assertEqual(self.avlTree.delete(self.root, 3), None)
+        
+    def test_delete_one_child(self):
+        self.root = self.avlTree.insert(self.root, 3)
+        self.root = self.avlTree.insert(self.root, 5)
+
+        self.avlTree.delete(self.root, 5)
+        self.assertEqual(self.avlTree.search(self.root, 5), False)
+        
+    def test_delete_not_exist(self):
+        self.root = self.avlTree.insert(self.root, 3)
+        self.root = self.avlTree.insert(self.root, 1)
+        
+        self.avlTree.delete(self.root, 6)
+        self.assertEqual(self.avlTree.getHeight(self.root), 2)
+        self.assertEqual(self.avlTree.search(self.root, 3), True)
+
 class TestAVLTreeComplexOperations(unittest.TestCase):
     def test_empty_tree(self): 
         self.avlTree = AVLTree()
@@ -86,8 +107,11 @@ class TestAVLTreeComplexOperations(unittest.TestCase):
         self.root = self.avlTree.insert(self.root, 1)
         self.root = self.avlTree.insert(self.root, 6)
         self.root = self.avlTree.insert(self.root, 5)  
-              
-        self.assertEqual(self.avlTree.traverse(self.root), [1, 1, 2, 3, 5, 6, 9])
+        self.root = self.avlTree.delete(self.root, 6)
+        self.root = self.avlTree.delete(self.root, 2)
+
+        self.assertEqual(self.avlTree.traverse(self.root), [1, 1, 3, 5, 9])
+        print(self.root.data, self.root.right.data, self.root.right.left.data, self.root.left.data)
         self.assertEqual(self.avlTree.getHeight(self.root), 3)
         self.assertEqual(self.avlTree.getBalance(self.root), 0)   
         self.assertEqual(self.avlTree.search(self.root, 3), True)   

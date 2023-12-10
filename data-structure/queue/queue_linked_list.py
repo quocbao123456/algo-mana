@@ -27,6 +27,8 @@ class Queue:
             return
         temp = self.head
         self.head = temp.next
+        temp.next = None
+        
         if(self.head == None):
             self.tail = None
         

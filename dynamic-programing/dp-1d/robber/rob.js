@@ -1,22 +1,20 @@
 // https://leetcode.com/problems/house-robber/  (49.7%)
 
 // dp no memozie --> not pass
-export const rob = function (nums) {
-    function dp(index) {
-        if (index > nums.length - 1) return 0;
+// export const rob = function (nums) {
+//     function dp(index) {
+//         if (index > nums.length - 1) return 0;
 
-        const choose = dp(index + 2) + nums[index];
-        const noChoose = dp(index + 1);
+//         const choose = dp(index + 2) + nums[index];
+//         const noChoose = dp(index + 1);
 
-        return Math.max(choose, noChoose);
-    }
-    return dp(0);
-};
+//         return Math.max(choose, noChoose);
+//     }
+//     return dp(0);
+// };
 // Complexity: O(2^n)
 // Mem: O(2^n)
 
-
-// DP HAVE MEMOZIED
 // export const rob = function (nums) {
 //     const memozied = new Map();
 //     function dp(index) {
@@ -80,3 +78,4 @@ export const rob = function (nums) {
 
 // Refer:   https://leetcode.com/problems/house-robber-ii/
 //          https://leetcode.com/problems/house-robber-iii/
+

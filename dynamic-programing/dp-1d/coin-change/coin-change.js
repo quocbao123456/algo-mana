@@ -1,6 +1,5 @@
 // https://leetcode.com/problems/coin-change  (42.6%)
 
-
 // Leet eyes on it with BFS
 // export const coinChange = function (coins, amount) {
 //     if(amount === 0) return 0;
@@ -28,7 +27,7 @@
 // };   
 
 // Complexity: O(M^N)  M: length of coin, N: amount--> so poor with big amount
-// Mem: O(1)
+// Mem: O(M)
 
 // const coinChange = function (coins, amount) {
 //     if(!amount) return 0;

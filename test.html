@@ -1,0 +1,30 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <div id="outer">
+            <div id="inner">aaa</div>
+        </div>
+        <script>
+            const innerElement = document.querySelector("#inner");
+            const outerElement = document.querySelector("#outer");
+            const bodyElement = document.querySelector("body");
+            innerElement.addEventListener("click", function () {
+                console.log("Inner");
+            });
+            outerElement.addEventListener(
+                "click",
+                function () {
+                    console.log("Outer");
+                },
+                true
+            );
+            bodyElement.addEventListener("click", function () {
+                console.log("Body");
+            });
+        </script>
+    </body>
+</html>

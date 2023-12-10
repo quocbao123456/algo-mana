@@ -24,6 +24,8 @@ var majorityElement = function (nums) {
         }
     });
 
+    console.log(cnt1, cnt2, candidate1, candidate2)
+
     let weight1 = 0,
         weight2 = 0;
     let limit = Math.floor(nums.length / 3);
@@ -39,5 +41,7 @@ var majorityElement = function (nums) {
     ];
 };
 // console.log(majorityElement([3,3,2,3,2,5,7,7, 7]))
-console.log(majorityElement([3, 2, 3]));
+// console.log(majorityElement([3, 2, 3]));
 console.log(majorityElement([2, 2]));
+// console.log(majorityElement([3,2,3,3,5,2,2,2]));
+console.log(majorityElement([1,2,3,4,5]));
