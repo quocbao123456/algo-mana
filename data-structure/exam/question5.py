@@ -14,7 +14,6 @@
 
 
 def findLengthLongestSubstring(str1, str2):
-    
     dp = []
     for _ in range(len(str1)):
         list = []
@@ -28,14 +27,18 @@ def findLengthLongestSubstring(str1, str2):
                 if index1 == 0 or index2 == 0:
                     dp[index1][index2] = 1
                 else:
-                    dp[index1][index2] = 1 + dp[index1 - 1][index2 - 1]
+                    # thiếu điều kiện này nì
+                    if str1[index1 - 1] == str2[index2 - 1]:
+                        dp[index1][index2] = 1 + dp[index1 - 1][index2 - 1]
+                    else:
+                        dp[index1][index2] = dp[index1 - 1][index2 - 1]
             else:
                 dp[index1][index2] = max(dp[index1 - 1][index2], dp[index1][index2 - 1])
-    
-    print(dp)
     
     return dp[-1][-1]
 
 
-print(findLengthLongestSubstring("www.google.com/explore5", "google.com/edpresso"))
-# print(findLengthLongestSubstring("wwwgoogle", "google"))
+print(findLengthLongestSubstring("abcc", "abdc"))
+print(findLengthLongestSubstring("www.google.com/exdasdsa", "google.com/edpresso"))
+
+print(findLengthLongestSubstring("wwwgoogle", "google"))
