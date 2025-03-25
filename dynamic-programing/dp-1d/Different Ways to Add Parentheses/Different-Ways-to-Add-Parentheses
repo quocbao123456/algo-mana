@@ -1,0 +1,38 @@
+/**
+ * @param {string} expression
+ * @return {number[]}
+ */
+var diffWaysToCompute = function(expression) {
+    
+    function df(index, str, hadOperator, balance){
+        // console.log(str, hadOperator)
+        if(index >= expression.length){
+            console.log("str", str)
+            return
+        }
+        const currChar = expression.charAt(index);
+
+        if(["+", "-", "/", "*"].includes(currChar)){
+             df(index + 1, str + currChar, true, balance)
+
+             if(balance > 0 && hadOperator){
+                df(index + 1, str +  ")" + currChar, true, balance - 1);
+             }
+
+             return
+        }
+
+        df(index + 1, str +  "(" + currChar, false, balance + 1);
+
+        if(balance > 0 && hadOperator){
+            df(index + 1, str + currChar + ")", false, balance - 1);
+        }
+    }
+
+    df(0, "", false, 0)
+    df(0, "(", false, 1)
+
+};
+
+
+diffWaysToCompute("2*3-4*5")
