@@ -17,3 +17,9 @@ var getDescentPeriods = function(prices) {
     }
     return total
 };
+
+
+
+// Input: n = 3, present = [4,6,8], future = [7,9,11], hierarchy = [[1,2],[1,3]], budget = 10
+
+// Output: 10
