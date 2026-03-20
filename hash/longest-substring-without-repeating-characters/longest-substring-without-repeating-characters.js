@@ -47,4 +47,4 @@ export const lengthOfLongestSubstring = function (s) {
 };
 
 // Complexity: N  (worst case)
-// Mem: 1
+// Mem: M: unique characters
